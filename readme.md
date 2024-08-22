@@ -6,6 +6,12 @@ Essentially, this has become a sort-of monolith with sub-repos. I'm not (current
 
 ## Firebase Hosting Deployment
 
+If `firebase` isn't globally installed in your node environment, run the following first ([initially recorded here](https://firebase.google.com/docs/cli#windows-npm)):
+
+`npm i -g firebase-tools`
+
+Then to deploy…
+
 `firebase deploy --only hosting`
 
 [Firebase Quickstart Guide](https://firebase.google.com/docs/hosting/quickstart)
